@@ -51,7 +51,7 @@ class SassCompiler extends Filter {
   }
 
   processString() {
-    if(this.inputTree._buildStart !== this.lastBuildStart) {
+    if(this.lastBuildStart === undefined || this.inputTree._buildStart !== this.lastBuildStart) {
       this.inputOutputMap.forEach(({ input, output}) => {
         var destFile = path.join(this.outputPath, output);
         var sourceMapFile = this.sassOptions.sourceMap;
