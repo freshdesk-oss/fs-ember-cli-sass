@@ -59,7 +59,7 @@
     "eslint-plugin-node": "^6.0.1",
     "loader.js": "^4.2.3",
     "qunit-dom": "^0.7.1",
-    "release-it": "^14.2.1",
+    "release-it": "^19.2.4",
     "release-it-lerna-changelog": "^3.1.0",
     "sass": "^1.51.0",
     "spinkit": "^1.2.5"
